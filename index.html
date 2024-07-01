@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e1d9416fd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           </nav> 
+           <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Okemwa Brian</span> <br>From Nairobi, Kenya</h1>
+           </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my img.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Okemwa Brian, currently a student at Kenyatta University, pursuing a degree in Mathematics and Computer Science. 
+                        With a keen interest in Information Technology, I am passionate about coding and conducting research.
+                         My hobbies include coding and exploring the latest trends in technology. 
+                         My professional goals are to become a skilled software engineer and a successful entrepreneur.
+                          Over the next 1-2 years, I aim to enhance my web development skills, complete significant projects, and lay the groundwork for my entrepreneurial ventures.
+                         I am committed to leveraging my academic knowledge and technical skills to make impactful contributions to the tech industry.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Web Development</span><br>Creating responsive web applications</li>
+                                <li><span>App Development</span><br>Building functional Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Learning and practicing web/App interface design through coursework and projects</li>
+                                <li><span>Web Development</span><br>Gaining hands-on experience in developing web applications</li>
+                                <li><span>App Development</span><br>Exploring app development by building and testing mobile applications</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Mathematics and Computer Science</span><br>Currently pursuing a degree at Kenyatta University</li>
+                                <li><span>UI/UX Design</span><br>Studying and applying design principles in web/App interfaces</li>
+                                <li><span>Web Development</span><br>Learning to develop and manage web applications</li>
+                                <li><span>App Development</span><br>Acquiring skills in creating Android/iOS applications</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating modern, responsive, and user-centric web interfaces that enhance user experience and visual appeal.</p>
+                    <a href="https://www.freecodecamp.org/news/ui-ux-design-guide/">Learn more</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Developing robust websites using HTML, CSS, and JavaScript, ensuring optimal performance and compatibility across devices.</p>
+                    <a href="https://www.codecademy.com/resources/blog/what-is-web-development/">Learn more</a>
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Building efficient and user-friendly Android and iOS apps that provide seamless functionality and engaging user experiences.</p>
+                    <a href="https://www.moontechnolabs.com/blog/mobile-app-development-tools/">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/jobless.jpeg">
+                    <div class="layer">
+                        <h3>Jobless</h3>
+                        <p>Enhancing web development and UI/UX skills through personal projects and continuous learning.</p>
+                         <p>Building a strong foundation for future career and entrepreneurial ventures.</p>
+
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/graphic designer.jpeg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>Currently refining my graphic design skills through personal projects and learning.</p>
+                        <p>Building a foundation for future opportunities in design.</p>
+
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web developer.jpeg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Currently honing my web development skills through personal projects and learning.</p>
+                        <p>Building a foundation for future opportunities in technology.</p>
+
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>okemwabrian1350@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+257112549445</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/yorabdfgjhg/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/mimierix"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/trqp_crooner/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/brian-okemwa-098801262/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/QM4L7GULAJ2JC1"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="Okemwa Brian..pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div> 
+            <div class="copyright">
+                <p>Copyright &copy; 2023 Okemwa Brian<i class="fa-solid fa-heart"></i>. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
